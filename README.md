@@ -5,7 +5,7 @@ Protótipo 2D de uma Game Jam, inspirado no imaginário de bruxas da Ilha de San
 ## Abrir em outro computador
 
 1. Instale o Git e o Unity Hub.
-2. Entre no GitHub com a conta que tem acesso a este repositório privado.
+2. Este repositório é público: qualquer pessoa pode baixar ou clonar sem entrar no GitHub.
 3. Clone o projeto: `git clone https://github.com/pedrogabriel08/a-vigilia.git`.
 4. No Unity Hub, instale **Unity 6000.6.7f1**, com **Web Build Support** para exportar para navegador.
 5. Adicione a pasta clonada ao Hub e abra. Aguarde a reconstrução da Library e a importação dos pacotes.
