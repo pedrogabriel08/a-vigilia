@@ -21,7 +21,7 @@ Abra a raiz que contém `Assets`, `Packages` e `ProjectSettings`. Não use o Sam
 - QTE de cliques/Espaço e de segurar, com dano gradual e vida visível.
 - Interface, cenário e sons ainda provisórios.
 - 93 verificações de lógica passaram na sessão de 21/10/2026. Isso não substitui testar a jogabilidade.
-- A exportação Web foi iniciada, mas estava em execução às 17h30. Não foi confirmada no navegador nem publicada na itch.io.
+- A exportação Web concluiu após as 17h30 com resultado `Succeeded`, tamanho de 54.974.604 bytes e `Errors=1` no resumo. Esse erro ainda precisa ser conferido no Console/relatório da Unity; a build não foi validada no navegador nem publicada na itch.io. [Resumo local da exportação](docs/BUILD-WEB-2026-10-21.txt).
 
 ## Documentação e continuidade
 

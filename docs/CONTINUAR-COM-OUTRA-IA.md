@@ -67,7 +67,7 @@ Os instaladores em `Editor` têm menus **Game Jam > Preparar...** e marcadores l
 
 ## Build Web: conferir antes de afirmar que está pronta
 
-Foi iniciada uma primeira exportação Web em 21/10/2026. **Às 17h30 ela ainda estava em execução**, compilando recursos/shaders, e não havia validação no navegador. A Library e a build são locais e não entram no Git; num outro computador será necessário gerar de novo.
+Foi iniciada uma primeira exportação Web em 21/10/2026. **Às 17h30 ela ainda estava em execução**, compilando recursos/shaders. Ao preparar o Git depois, o relatório já mostrava **`Succeeded`, `Errors=1`, `Bytes=54974604`**. Ainda é necessário conferir esse erro no Console/relatório da Unity e validar a build no navegador; não afirme que está livre de erros. O resumo foi preservado em `docs/BUILD-WEB-2026-10-21.txt`. A Library e a build são locais e não entram no Git; num outro computador será necessário gerar de novo.
 
 - Menu: **Game Jam > Gerar build Web** (`Editor/WebBuild.cs`).
 - O instalador troca o target para WebGL e exporta explicitamente a cena Main_MVP para `Builds/Web`, sem depender da lista antiga que pode conter SampleScene.
