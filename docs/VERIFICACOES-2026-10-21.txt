@@ -1,0 +1,66 @@
+VigiliaMvpVerification.txt
+PASS
+14 verificações da base aprovadas.
+2026-10-21T17:18:53.1871035-03:00
+
+VigiliaBullStageVerification.txt
+PASS
+18 verificações aprovadas.
+OK: Nenhum evento antes de iniciar
+OK: Primeiro intervalo entre 8 e 14 segundos
+OK: Intervalo mínimo respeitado
+OK: Intervalo inicia pré-ataque
+OK: Exatamente um boi estranho
+OK: Janela de percepção de 5 segundos
+OK: Sem troca de alvo ou sobreposição durante o evento
+OK: Fim da prévia restaura os bois
+OK: Novo intervalo só após terminar
+OK: Prévia não causa dano nem controla timer global
+OK: Sorteio pode selecionar bois diferentes
+OK: Vitória cancela e limpa o pré-ataque
+OK: Sem eventos após vitória
+OK: Reinício recebe novo intervalo completo
+OK: Derrota cancela e limpa o pré-ataque
+OK: Desativar agendador limpa o evento
+OK: Reativar durante a partida agenda intervalo
+OK: Referência vazia não trava o agendador
+
+VigiliaScissorsStageVerification.txt
+PASS
+27 verificações aprovadas.
+OK: Sem coleta antes de iniciar
+OK: Tesoura inicia pronta com recarga de 5s
+OK: Item não configurado é recusado
+OK: Coleta registra o item carregado
+OK: Apenas um item pode ser carregado
+OK: Soltar fora do alvo devolve sem consumo
+OK: Alvo desativado não consome o item
+OK: Uso na janela inicia recarga e devolve o item
+OK: Coleta bloqueada durante recarga
+OK: Uma soltura não pode usar o item duas vezes
+OK: Recarga não acaba antes de 5s
+OK: Item disponível ao completar 5s
+OK: Devolução manual não inicia recarga
+OK: Pré-ataque iniciado antes da defesa
+OK: Tesoura cancela totalmente o pré-ataque e restaura o boi
+OK: Defesa inicia intervalo e recarga independentes
+OK: Usar na janela sem ameaça também consome recarga
+OK: Vitória bloqueia uso e limpa o item
+OK: Reinício restaura disponibilidade
+OK: Derrota devolve item carregado e bloqueia coleta
+OK: Desativação devolve o item e bloqueia uso
+OK: Reativação mantém sistema utilizável
+OK: Item registra os handlers de arrasto da Unity
+OK: Início do arrasto move o item e libera raycast do alvo
+OK: Fim de arrasto fora do alvo restaura posição sem recarga
+OK: OnDrop da Unity encaminha uso e restaura o item
+OK: Fim de partida durante arrasto devolve o objeto e restaura raycast
+
+VigiliaQteStageVerification.txt
+PASS
+14 verificações aprovadas.
+
+VigiliaSurvivalVerification.txt
+PASS
+20 verificações aprovadas.
+

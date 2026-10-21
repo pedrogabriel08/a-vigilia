@@ -1,0 +1,45 @@
+# Unity cache and local state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Bb]uild/
+/[Bb]uilds/
+
+# Generated IDE files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+*.pdb
+*.mdb
+*.tmp
+*.log
+sysinfo.txt
+.DS_Store
+Thumbs.db
+
+# Local credentials and signing material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.keystore
+*.jks
+
+# Never ignore Unity .meta files or source art files.
